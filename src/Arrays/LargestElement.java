@@ -6,7 +6,7 @@ public class LargestElement {
 
         // the bruteforce way is to use inbuilt sort and print n-1
         // the optimal way is to use max variable and iterate the array
-        int max =Integer.MIN_VALUE; // u we can use max=arr[0]
+        int max =Integer.MIN_VALUE; // u  can use max=arr[0]
 
         for(int i=0;i< arr.length;i++){
             if(arr[i]>max){
